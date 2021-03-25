@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Seoul Mate</title>
+    <link rel="stylesheet" href="static/style/style.css">
+    <script src="static/javascript/jquery-1.12.3.js"></script>
+    <script src="static/javascript/app.js"></script>
+</head>
+<body>
+<div class="wrap">
+    <header style="background:#434343;">
+        <div class="layout">
+            <a href="index.html"><img src="static/images/logo.png" alt="logo"></a>
+            <div class="wrap_bg"></div>
+            <div class="menu"><span></span></div>
+            <ul>
+                <li>
+                    <a href="#">Admin Menu <img src="static/images/active.gif" alt="active" class="active_arrow"></a>
+                    <ul>
+                        <li><a href="#">Tour<br/>management</a></li>
+                        <li><a href="#">Participant<br/>Management</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="SeoulMate.html">About Us <img src="static/images/active.gif" alt="active" class="active_arrow"></a>
+                    <ul>
+                        <li><a href="SeoulMate.html">Seoul Mate</a></li>
+                        <li><a href="Member.html">Member</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="Tourinfo.html">Tour <img src="static/images/active.gif" alt="active" class="active_arrow"></a>
+                    <ul>
+                        <li><a href="Tourinfo.html">Tour info</a></li>
+                        <li><a href="TourSchedule.html">Tour schedule</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Contents <img src="static/images/active.gif" alt="active" class="active_arrow"></a>
+                    <ul>
+                        <li><a href="#">Sketch</a></li>
+                        <li><a href="#">Seoul Mate's Tip</a></li>
+                        <li><a href="TourGallery.html">Gallery</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="content">
+        <div class="content_sub_wrap">
+            <div class="layout_470">
+                <h1>Reservation <span><hr></span></h1>
+                <div class="select_wrap">
+                    <p>Tour</p>
+                    <select>
+                        <option>Select</option>
+                    </select>
+
+                    <p>Date</p>
+                    <select>
+                        <option>년도</option>
+                    </select>
+                    <select>
+                        <option>월</option>
+                    </select>
+                    <select>
+                        <option>일</option>
+                    </select>
+
+                    <p>Full Name</p>
+                    <input type="text">
+
+                    <p>Genger</p>
+                    <input type="radio" id="male" name="genger" checked><label for="male">Male</label>
+                    <input type="radio" id="famale" name="genger"><label for="famale">Famale</label>
+
+                    <p>Nationality</p>
+                    <input type="text" placeholder="Hong Gil Dong">
+
+                    <p>Phone Number</p>
+                    <input type="number">
+
+                    <p>Notes</p>
+                    <textarea cols="30" rows="10"></textarea>
+
+                    <input type="submit" value="예약하기" class="submit">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer_wrap">
+            <ul>
+                <li><a href="#"><img src="static/images/icon1.png" alt="icon"></a></li>
+                <li><a href="#"><img src="static/images/icon2.png" alt="icon"></a></li>
+                <li><a href="#"><img src="static/images/icon3.png" alt="icon"></a></li>
+                <li><a href="#"><img src="static/images/icon4.png" alt="icon"></a></li>
+            </ul>
+            <p>Copyright (c) 2014-2017 SeoulMate, All Rights Reserved.<br/>
+                E-Mail : seoulmate.korea@gmail.com</p>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
